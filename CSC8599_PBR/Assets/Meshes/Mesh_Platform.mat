@@ -1,0 +1,12 @@
+MeshMat
+1
+1
+1
+M_PlatformMedieval
+5
+Diffuse:/Platform/Platform_Base_Color.png
+Metallic:/Platform/Platform_Metallic.png
+Roughness:/Platform/Platform_Roughness.png
+Bump:/Platform/Platform_Normal_OpenGL.png
+Occlusion:/Platform/Platform_Mixed_AO.png
+0

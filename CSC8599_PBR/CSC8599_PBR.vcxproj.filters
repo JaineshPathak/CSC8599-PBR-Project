@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{08365f7c-5bea-408b-bbbb-1ec3a115e21c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LookAtCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGuiRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LightsManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyboxRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PostProcessRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PostProcessEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PostProcessBloom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PostProcessInvertColor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PostProcessSSAO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Object3DEntity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Object3DRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PostProcessVignette.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LookAtCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IImguiItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuiRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LightsManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyboxRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PostProcessRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PostProcessEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PostProcessBloom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PostProcessInvertColor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PostProcessSSAO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Object3DEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Object3DRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PostProcessVignette.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Shaders\PBR\PBRBillboardFragment.glsl" />
+    <None Include="Assets\Shaders\PBR\PBRBillboardVertex.glsl" />
+    <None Include="Assets\Shaders\PBR\PBRBRDFConvolutionFragment.glsl" />
+    <None Include="Assets\Shaders\PBR\PBRBRDFConvolutionVertex.glsl" />
+    <None Include="Assets\Shaders\PBR\PBRCombinedFrag.glsl" />
+    <None Include="Assets\Shaders\PBR\PBRCombinedVert.glsl" />
+    <None Include="Assets\Shaders\PBR\PBRDepthBufferFrag.glsl" />
+    <None Include="Assets\Shaders\PBR\PBRDepthBufferVert.glsl" />
+    <None Include="Assets\Shaders\PBR\PBREquiRect2CubeMapFragment.glsl" />
+    <None Include="Assets\Shaders\PBR\PBREquiRect2CubeMapVertex.glsl" />
+    <None Include="Assets\Shaders\PBR\PBRIrradianceCubeMapFragment.glsl" />
+    <None Include="Assets\Shaders\PBR\PBRNormalBufferFrag.glsl" />
+    <None Include="Assets\Shaders\PBR\PBRNormalBufferVert.glsl" />
+    <None Include="Assets\Shaders\PBR\PBRPositionBufferFrag.glsl" />
+    <None Include="Assets\Shaders\PBR\PBRPositionBufferVert.glsl" />
+    <None Include="Assets\Shaders\PBR\PBRPreFilterConvolutionFragment.glsl" />
+    <None Include="Assets\Shaders\PBR\PBRShadowDepthBufferVert.glsl" />
+    <None Include="Assets\Shaders\PBR\PBRSkyBox2Fragment.glsl" />
+    <None Include="Assets\Shaders\PBR\PBRSkyBox2Vertex.glsl" />
+    <None Include="Assets\Shaders\PBR\PBRSkyBoxFragment.glsl" />
+    <None Include="Assets\Shaders\PBR\PBRSkyBoxVertex.glsl" />
+    <None Include="Assets\Shaders\PBR\PBRTexturedFragment.glsl" />
+    <None Include="Assets\Shaders\PBR\PBRTexturedFragmentBlinnPhong.glsl" />
+    <None Include="Assets\Shaders\PBR\PBRTexturedFragmentDisney.glsl" />
+    <None Include="Assets\Shaders\PBR\PBRTexturedFragmentOrenNayar.glsl" />
+    <None Include="Assets\Shaders\PBR\PBRTexturedVertex.glsl" />
+  </ItemGroup>
+</Project>

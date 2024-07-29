@@ -1,0 +1,21 @@
+Filmic Tone Mapping and SSAO: https://www.slideshare.net/ozlael/hable-john-uncharted2-hdr-lighting
+
+BRDF: http://graphicrants.blogspot.com/2013/08/specular-brdf-reference.html
+BRDF: https://www.trentreed.net/blog/physically-based-shading-and-image-based-lighting/
+
+Billboards: https://archive.fo/SLzw2
+
+SSAO: https://betterprogramming.pub/depth-only-ssao-for-forward-renderers-1a3dcfa1873a
+
+Disney BRDF: https://schuttejoe.github.io/post/disneybsdf/
+Disney BRDF: https://media.disneyanimation.com/uploads/production/publication_asset/48/asset/s2012_pbs_disney_brdf_notes_v3.pdf
+
+Lighting Shaders: https://garykeen27.wixsite.com/portfolio/first-pass-techniques
+
+Gaussian: https://paroj.github.io/gltut/Illumination/Tut11%20Gaussian.html#:~:text=The%20equation%20we%20will%20be,of%20the%20Gaussian%20distribution%20equation.&text=This%20replaces%20our%20Phong%20and,us%20the%20Gaussian%20specular%20model.
+
+nclgl Linked Directory:
+..\Third Party\SOIL\$(Platform)\$(Configuration)
+
+Main Project Linked Directory:
+..\..\SOIL\$(Configuration)\

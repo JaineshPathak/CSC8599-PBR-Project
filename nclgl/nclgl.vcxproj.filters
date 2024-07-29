@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GameTimer.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="MeshAnimation.cpp" />
+    <ClCompile Include="MeshMaterial.cpp" />
+    <ClCompile Include="OGLRenderer.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="..\Third Party\glad\glad.c">
+      <Filter>GLAD</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputeShader.cpp" />
+    <ClCompile Include="Matrix2.cpp">
+      <Filter>Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix3.cpp">
+      <Filter>Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix4.cpp">
+      <Filter>Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Quaternion.cpp">
+      <Filter>Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Windows and Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Windows and Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Windows and Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="SceneNode.cpp" />
+    <ClCompile Include="CubeRobot.cpp" />
+    <ClCompile Include="Plane.cpp" />
+    <ClCompile Include="Frustum.cpp" />
+    <ClCompile Include="HeightMap.cpp" />
+    <ClCompile Include="..\Third Party\imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Third Party\imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Third Party\imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Third Party\imgui\imgui_impl_opengl3.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Third Party\imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Third Party\imgui\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Third Party\imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameBuffer.cpp" />
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="UniformBuffer.cpp" />
+    <ClCompile Include="FrameBufferFP.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="Vector4.cpp">
+      <Filter>Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureHDR.cpp" />
+    <ClCompile Include="FrameBufferHDR.cpp" />
+    <ClCompile Include="TextureEnvCubeMap.cpp" />
+    <ClCompile Include="..\Third Party\stb_image\stb_image.cpp">
+      <Filter>stb_image</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureCubeMap.cpp" />
+    <ClCompile Include="FrameBufferBloom.cpp" />
+    <ClCompile Include="Object3D.cpp" />
+    <ClCompile Include="ProfilingManager.cpp" />
+    <ClCompile Include="Object3DMaterial.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.h" />
+    <ClInclude Include="GameTimer.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="MeshAnimation.h" />
+    <ClInclude Include="MeshMaterial.h" />
+    <ClInclude Include="OGLRenderer.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="ComputeShader.h" />
+    <ClInclude Include="Matrix2.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix4.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Windows and Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Windows and Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Windows and Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputDevice.h">
+      <Filter>Windows and Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Colour.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="SceneNode.h" />
+    <ClInclude Include="CubeRobot.h" />
+    <ClInclude Include="Plane.h" />
+    <ClInclude Include="Frustum.h" />
+    <ClInclude Include="HeightMap.h" />
+    <ClInclude Include="Light.h" />
+    <ClInclude Include="..\Third Party\imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Third Party\imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Third Party\imgui\imgui_impl_opengl3.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Third Party\imgui\imgui_impl_opengl3_loader.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Third Party\imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Third Party\imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Third Party\imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Third Party\imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Third Party\imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLight.h" />
+    <ClInclude Include="FrameBuffer.h" />
+    <ClInclude Include="UniformBuffer.h" />
+    <ClInclude Include="SpotLight.h" />
+    <ClInclude Include="FrameBufferFP.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="TextureHDR.h" />
+    <ClInclude Include="FrameBufferHDR.h" />
+    <ClInclude Include="TextureEnvCubeMap.h" />
+    <ClInclude Include="..\Third Party\stb_image\stb_image.h">
+      <Filter>stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureCubeMap.h" />
+    <ClInclude Include="FrameBufferBloom.h" />
+    <ClInclude Include="Object3D.h" />
+    <ClInclude Include="ProfilingManager.h" />
+    <ClInclude Include="..\Third Party\stb_image\stb_image_write.h">
+      <Filter>stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="Object3DMaterial.h" />
+    <ClInclude Include="IObserver.h" />
+    <ClInclude Include="ISubject.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GLAD">
+      <UniqueIdentifier>{b2f2e4a3-f5c5-4809-836e-819a6234e480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maths">
+      <UniqueIdentifier>{fa6a3a39-359c-4394-b797-c66f4ed7c29d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows and Input">
+      <UniqueIdentifier>{4a13117a-c481-4385-bd9e-1acd65146a21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{d2be9ae0-9619-4f57-9b36-a441199c030d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stb_image">
+      <UniqueIdentifier>{321fd1bd-5416-46ed-89e8-c08256670d07}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
